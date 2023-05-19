@@ -1,0 +1,111 @@
+:root{
+    --primary:white;
+    --secondary:#747474;
+ }
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
+ body{
+ 
+     width: 100%;
+     height: 200vh;
+     
+ }
+ img{
+     width: 100%;
+     height: 100%;
+ }
+ a{
+     text-decoration: none;
+     color:black;
+ }
+ li{
+     list-style-type: none;
+ }
+body{
+ background-color: #747474;
+ 
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+ .account-own{
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px #b81a1aa6;
+    width: 21%;
+    border-radius: 10px;
+    height: 95vh;
+     position: relative;
+     top: 12px;
+ }
+ .account-own div{
+    padding: 10px;
+  
+ }
+ .own-img{
+    
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+
+ }
+ .account-own hr{
+     color:#c0c0c048 ;
+ }
+ .own-img a p{
+    margin-top: -10px;
+ }
+ .own-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+ }
+ .specific-one div{
+    display: flex;
+    padding: 15px;
+    justify-content: left;
+    column-gap: 20px;
+ }
+ .specific-two div{
+    display: flex;
+    padding: 18px;
+    justify-content: left;
+    column-gap: 20px;
+ }
+ 
+ @media (max-width:1800px){
+   
+     .sidebar2{
+        width: 100%;
+        height: 300vh;
+        position: relative;
+        left: 25px;
+    
+    }
+ }
+ .specific-two h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    background-color: #7474749d;
+    border-radius: 5px;
+    position: relative;
+    left: 130px;
+    bottom: 7px;
+ }
+ .specific-two h4:hover{
+   background-color: #747474;
+ }
+ /* video item end */

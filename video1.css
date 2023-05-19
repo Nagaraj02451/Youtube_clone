@@ -1,0 +1,546 @@
+:root{
+    --primary:white;
+    --secondary:#747474;
+ }
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
+ body{
+ 
+     width: 100%;
+     height: 200vh;
+     
+ }
+ img{
+     width: 100%;
+     height: 100%;
+ }
+ a{
+     text-decoration: none;
+     color:black;
+ }
+ li{
+     list-style-type: none;
+ }
+.container{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    z-index:1;
+    background-color: var(--primary);
+  
+}
+.sup1{
+  font-size: 11px;
+  position: relative;
+  top: -10px;
+}
+.bars{
+  width: 50px;
+}
+.container img{
+  width: 30px;
+  height: 30px;
+}
+.bars{
+  width: 45px;
+}
+.logo .logo1{
+  width: 100px;
+  height: 20px;
+  margin-left: 20px;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+}
+.search{
+  border: 1px solid #c0c0c070;
+  border-color:#c0c0c0;
+  width: 32%;
+  height: 69%;
+  display: flex;
+  align-items: center;
+  border-radius:10px ;
+ 
+}
+.search input{
+  border: 0;
+  outline: 0;
+  background: transparent;
+  flex: 1;
+  margin-left:10px ;
+}
+.search img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+
+}
+.search div img{
+  width: 27px;
+  height:27px;
+  margin-top: 3px;
+  margin-left: 8px;
+  border-radius: 50%;
+}
+.search div img:hover{
+transform: scale(1.2);
+}
+#sec01{
+  display: none;
+}
+#sec02{
+  display: none;
+}
+@media (max-width:490px){
+  #sec01{
+      display: block;
+      margin-left: 40px;
+      font-size: 18px;
+      
+  }
+  #sec02{
+      display: block;
+      font-size: 18px;
+  }
+  .search{
+    display: none;
+  }
+}
+@media (max-width:725px){
+  .search img{
+    margin-left: -40px;
+  }
+  .search div img{
+     margin-left: -5px;
+  }
+}
+
+@media (max-width:590px){
+  .search img{
+    margin-left: -50px;
+  }
+  .search div img{
+     margin-left: -5px;
+  }
+}
+@media (max-width:590px){
+  .search img{
+    margin-left: -70px;
+  }
+  .search div img{
+     margin-left: -5px;
+  }
+}
+@media (max-width:495px){
+  .search img{
+    margin-left: -100px;
+  }
+  .search div img{
+     display: none;
+  }
+  .search{
+     
+      width: 22%;
+      height: 70%;
+  }
+
+}
+.account{
+  width: 110px;
+  margin-right: 20px;
+  display: flex;
+  justify-content:space-between ;
+}
+.account img{
+  width: 20px;
+  height: 18px;
+
+}
+.account .record{
+  height: 13px;
+  margin-top: 8px;
+}
+.account .noti{
+  margin-top: 5px;
+}
+.account .surya{
+  width: 30px;
+  height: 30px;
+  border-radius:50%;
+ 
+}
+
+
+/* sidebar start */
+.main{
+  display: flex;
+  justify-content: center;
+}
+.main-div{
+    width: 90%;
+    height: 100vh;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 25px;
+   
+}
+
+/* left side start */
+.left-side{
+    width: 74%;
+    height: 100vh;
+}
+.left-side p{
+  color: rgb(5, 44, 49);
+}
+
+.left-side img{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+.left-side a{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.left-side a pre{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.left-side a .but1{
+  width: 60px;
+  height: 25px;
+  border-radius:7px ;
+  border: none;
+  outline: none;
+  background: transparent;
+  background-color: #c0c0c0;
+  position: relative;
+  left: 25px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+
+}
+.left-side a .but1:hover{
+background-color: #747474d5;
+}
+
+.left-side a .but2{
+  width: 100px;
+  height: 25px;
+  border-radius:7px ;
+  border: none;
+  outline: none;
+  background: transparent;
+  background-color: #c0c0c0;
+  position: relative;
+  left: 30px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+
+
+}
+.left-side a .but2:hover{
+  background-color: #747474d5;
+  }
+.left-side a .but3{
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  width: 65px;
+  height: 25px;
+  border-radius:7px ;
+  border: none;
+  outline: none;
+  background: transparent;
+  background-color: #c0c0c0;
+  position: relative;
+  left: 555px;
+}
+.left-side .but3:hover{
+  background-color: #747474d5;
+}
+.left-side .comment h4{
+    margin-left: 20px;
+    width: 100%;
+}
+.left-side .comment hr{
+  color: #c0c0c093;
+}
+.left-side .bharath h4{
+    margin-left: 20px;
+}
+.left-side .bharath h5{
+  margin-left: 48px;
+
+}
+.left-side .bharath p{
+  margin-left: 47px;
+
+}
+.left-side .bharath pre{
+  position: relative;
+  top: -0.2px;
+}
+.left-side .bharath span{
+  margin-left:20px;
+}
+/* left side end */
+
+
+/* right slide start */
+.right-side{
+    width: 23%;
+    height: 100vh;
+}
+.right-side ul{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -1px;
+
+}
+.right-side ul img{
+  display: none;
+}
+
+.right-side ul a{
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c0c0c0;
+  border-radius: 6px;
+}
+
+.right-side ul li:hover{
+background-color: #747474d5;
+}
+
+.video-items{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 20px;
+  right: 24px;
+}
+.video-items div{
+  width: 300px;
+  height: 240px;
+  border-radius:10px;
+  transition: 1s;
+  transition-delay: 1s;
+}
+.video-items div img{
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+  
+}
+.video-items div:hover{
+  background-color: #c0c0c048;
+  transform: scale(1.1);
+}
+.love{
+  position: relative;
+  top: 60px;
+}
+
+.love p img{
+  width: 28px;
+  height: 28px;
+  position: relative;
+  top:5px;
+}
+.love pre{
+  position: relative;
+  left: 40px;
+  top: -28px;
+  font-weight: bold;
+}
+.love .love1{
+  font-weight: normal;
+  margin-top: 7px;
+  font-size: 14px;
+}
+.love2 p img{
+  width: 28px;
+  height: 28px;
+  position: relative;
+  top: 5px;
+}
+.love2 pre{
+  position: relative;
+  left: 40px;
+  top: -28px;
+  font-weight: bold;
+}
+.love2 .love2-1{
+  font-weight: normal;
+  margin-top: 7px;
+  font-size: 14px;
+}
+.love3{
+  position:relative;
+  top: 120px;
+}
+.love3 p img{
+  width: 28px;
+  height: 28px;
+  position: relative;
+  top: 5px;
+}
+.love3 pre{
+  position: relative;
+  left: 40px;
+  top: -28px;
+  font-weight: bold;
+}
+.love3 .love3-1{
+  font-weight: normal;
+  margin-top: 7px;
+  font-size: 14px;
+}
+.love4{
+  position:relative;
+  top: 180px;
+}
+.love4 p img{
+  width: 28px;
+  height: 28px;
+  position: relative;
+  top: 5px;
+}
+.love4 pre{
+  position: relative;
+  left: 40px;
+  top: -28px;
+  font-weight: bold;
+}
+.love4 .love4-1{
+  font-weight: normal;
+  margin-top: 7px;
+  font-size: 14px;
+}
+.love5{
+  position:relative;
+  top: 240px;
+}
+.love5 p img{
+  width: 28px;
+  height: 28px;
+  position: relative;
+  top: 5px;
+}
+.love5 pre{
+  position: relative;
+  left: 40px;
+  top: -28px;
+  font-weight: bold;
+}
+.love5 .love5-1{
+  font-weight: normal;
+  margin-top: 7px;
+  font-size: 14px;
+}
+.love6{
+  position:relative;
+  top: 300px;
+}
+.love6 p img{
+  width: 28px;
+  height: 28px;
+  position: relative;
+  top: 5px;
+}
+.love6 pre{
+  position: relative;
+  left: 40px;
+  top: -28px;
+  font-weight: bold;
+}
+.love6 .love6-1{
+  font-weight: normal;
+  margin-top: 7px;
+  font-size: 14px;
+}
+@media (max-width:1900px){
+  .right-side .video-items{
+    display: none;
+}
+.right-side{
+  width: 10%;
+  margin-right: 100px;
+  
+}
+.right-side ul{
+  position: relative;
+  display: inline;
+}
+
+.right-side ul img{
+  position: relative;
+  top: -5px;
+  width:255px;
+  height: 132.5px;
+  display: block;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+.right-side ul img:hover{
+  transform: scale(1.1);
+}
+.right-side ul a{
+  display: none;
+}
+
+
+.left-side{
+  width: 100%;
+  height: 100vh;
+
+}
+
+}
+@media (max-width:1350px){
+  .left-side .videos{
+    width: 100%;
+  }
+  .left-side div .but3{
+    display: none;
+  }
+}
+@media (max-width:1710px){
+  .right-side{
+    margin-left: 18px;
+    
+  }
+
+}
+@media (max-width:1640px){
+  .right-side{
+   display: none;
+  }
+
+}
+/* right side end */
+
+/* sidebar end */
+

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/YouTube.css">
+    <link rel="icon" href="images/title.png">
+    <title>YouTube</title>
+</head>
+<body>
+    <!-- Navigation  -->
+        <nav class="container">
+            <div class="logo">
+              <a href="#"><img src="images/bars.png" class="bars" id="bars"></a>  
+                <img src="/images/logo.png"  class="logo1" ><sup class="sup1">IN</sup>
+            </div>
+            <div class="search">
+                 <input type="text" placeholder="search"  value="work" id="input" onkeyup="search()" >
+                <button id="search" onclick="fun()"><img src="/images/search.png"></button> 
+                 <div>
+                    <img src="/images/mic.png">
+                </div>
+            </div>
+            <i class="fa fa-search" id="sec01"></i>
+            <i class="fa fa-microphone" id="sec02"></i>
+            <div class="account">
+               <a href="/record.html"><img class="record" src="/images/record.png"></a>
+               <a href="/notification.html"><img class="noti" src="/images/notification.png"></a>  
+               <a href="/account1.html"><img class="surya" src="/images/surya1.jpg"></a>  
+            </div>
+ 
+       </nav>
+
+<!-- Navigation end -->
+
+<!-- sidebar start -->
+<div class="main">
+<div id="view"></div>
+        <div class="sidebar1" id="side1">
+            <div class="container1">
+
+                <div> <i class="fa fa-home"></i> <a href="/YouTube.html" >Home</a></div>
+                <div> <i class= "fa fa-play-circle"></i> <a href="/shorts.html"> Shorts</a></div>
+                <div><i class="fa fa-address-book-o" style="font-size:18px;"></i> <a href="/subscription.html"> Subscriptions</a></div>
+                <br>
+                <hr class="hr1">
+             </div>
+    
+  
+          <div class="container2">
+                <div> <i class="fa fa-youtube"></i> <a href="/library.html">Library</a></div>
+                <div> <i class="fa fa-history"></i> <a href="/history.html">History</a></div>
+                <div><i class="fa fa-video-camera" style="font-size:17px;"></i> <a href="/your videos.html">Your videos</a></div>
+                <div><i class="fa fa-clock-o "></i> <a href="/watch later.html">Watch Later</a></div>
+                <div><i class="fa fa-thumbs-o-up"></i> <a href="/liked.html">Liked videos</a></div>
+                <br>
+                <hr class="hr1">
+          </div>
+      
+          <div class="container3">
+              <h4>Subscriptions</h4>
+              <div> <img src="/images/polimer.png"> <a href="live.html">Polimer News</a></div>
+              <div> <img src="/images/pan.JPEG"> <a href="/computer.html">Pantech elearning</a></div>
+              <div> <img src="/images/tamil code.jpg"> <a href="computer.html">Learn Code Tamil</a></div>
+              <div> <img src="/images/sony.jpg"> <a href="musci.html">Sony Music South</a></div>
+              <div> <img src="/images/tech tamil.jpg"> <a href="/gadgets.html">Tamil Tech</a></div>
+              <div><i class="fa fa-angle-down"></i><a href="YouTube.html"></a>show 305 more</a></div>
+               <br>
+              <hr class="hr1">
+        </div>
+        <div class="container4">
+          <h4>Explore</h4>
+          <div> <i class="fa fa-fire"></i> <a href="/mixser.html">Trending</a></div>
+          <div> <i class="fa fa-music"></i> <a href="/musci.html">Music</a></div>
+          <div><i class="fa fa-film" style="font-size:16px;"></i> <a href="cinema.html">Movies</a></div>
+          <div><i class="fa fa-bullseye"></i> <a href="live.html">Live</a></div>
+          <div><i class="fa fa-futbol-o" style="font-size:16px;"></i> <a href="game.html">Gaming</a></div>
+          <div><i class="fa fa-newspaper-o" style="font-size:16px;"></i> <a href="live.html">News</a></div>
+          <div><i class="fa fa-life-ring" style="font-size:17px;"></i> <a href="/cricket.html">Sports</a></div>
+          <div><i class="fa fa-mortar-board" style="font-size:13px;"></i> <a href="computer.html">Learning</a></div>
+          <div><i class="fa fa-bullseye"></i> <a href="game.html">Fashion & Beauty</a></div>
+           <br>
+          <hr class="hr1">
+    </div>
+    <div class="container5">
+      <h4>More from YouTube</h4>
+      <div> <img src="/images/YouTube-Premium.webp"><a href="/thoughts.html">YouTube Premium</a></div>
+      <div> <img src="/images/studio.png"><a href="/photography.html">Creator Studio</a></div>
+      <div> <img src="/images/index.png"><a href="/musci.html">YouTube Music</a></div>
+      <div> <img src="/images/kids.png"><a href="/game.html">YouTube Kids</a></div>
+      <div> <i class="fa fa-youtube-play" style="font-size:17px;"></i> <a href="/cinema.html">YouTube TV</a></div>
+       <br>
+      <hr class="hr1">
+  </div>
+  
+  <div class="container6">
+      <div> <i class="fa fa-cog"></i> <a href="#">Settings</a></div>
+      <div> <i class="fa fa-flag" style="font-size:13px;"></i> <a href="/history.html">Report history</a></div>
+      <div><i class="fa fa-question-circle"></i> <a href="#">Help</a></div>
+      <div><i class="fa fa-comments-o" style="font-size:12px;"></i> <a href="#">Send feedback</a></div>
+       <br>
+      <hr class="hr1">
+  </div>
+  <div class="con7-1">
+          <div> <pre>AboutPressCopyright
+Contact usCreator
+sAdvertiseDevelopers
+  
+TermsPrivacyPolicy & Safety
+How YouTube works
+Test new features
+  
+© 2022 Google LLC </pre>
+  </div>
+  </div>
+  <pre>
+
+
+
+  </pre>
+
+
+
+</div>
+
+<!-- sidebar end -->
+        
+<!-- body Content start -->
+    <div class="sidebar2">
+        <!-- item list start -->
+        <div  class="videos-list">
+            <ul>
+                <li class="li1"><a href="/YouTube.html">All</a></li>
+                <li class="li2"><a href="/javascript.html">Javascript</a></li>
+                <li class="li3"><a href="/musci.html">Music</a></li>
+                <li class="li4"><a href="/computer.html">Computer</a></li>
+                <li class="li5"><a href="/yuvan.html">Yuvan</a></li>
+                <li class="li6"><a href="/cinema.html">Cinema</a></li>
+                <li class="li7"><a href="/live.html">Live</a></li>
+                <li class="li8"><a href="/mixser.html">Mixer</a></li>
+                <li class="li9"><a href="/thoughts.html">Thoughts</a></li>
+                <li class="li10"><a href="/photography.html">Photography</a></li>
+                <li class="li11"><a href="/hackers.html">Hackers</a></li>
+                <li class="li12"><a href="/gadgets.html">Gadgets</a></li>
+                <li class="li13"><a href="/live.html">Polimer</a></li>
+                <li class="li14"><a href="/game.html">Game</a></li>
+                <li class="li15"><a href="/cricket.html">Cricket</a></li>
+            </ul>
+    <!--item list end  -->
+  
+    <!-- video items start -->
+            <div class="video-items" id="items">
+                
+                <div  class="love" id="love"> <a href="/video1.html"> <img src="/images//love today.webp"></a><br>
+                <p><img src="/images/naisekar.webp"><br><pre>Love Today | Deleted | scene | Pradeep |
+Ivana | Ags</pre> </p>
+<pre class="love1">
+GOLDEN WOLF STUDIO
+25K Views . 21 Hours ago</pre>
+               
+            </div>
+
+                <div class="love2" id="love"> <a href="/video2.html"> <img src="/images/thuniyu.webp"></a><br>
+                    <p><img src="/images/love today.webp"><br><pre>Thunivu | Chilla Chilla | Song | AK | vinoth 
+| Redgiant</pre> </p>
+    <pre class="love2-1">
+SONY STUDIO
+20K Views . 5 Hours ago</pre>
+
+                </div>
+                <div class="love3" id="love"><a href="/kantara.html"><img src="/images/kantara.webp"></a><br>
+                    <p><img src="/images/thuniyu.webp"><br><pre>kantara | Bgm | Song | Tamil | Reddy 
+| Humble</pre> </p>
+    <pre class="love3-1">
+TELUGU STUDIO
+15K Views . 10 Hours ago</pre>
+
+                </div>
+                <div class="love4" id="love"> <a href="/naaisekar.html"><img src="/images/naisekar.webp"></a><br>
+                        <p><img src="/images/paavangal.webp"><br><pre>Naaisekar | Vadivelu | Song | Tamil | Red 
+    | sasi</pre> </p>
+    <pre class="love4-1">
+THINK MUSIC INDIA
+55K Views . 1 Hours ago</pre>
+
+                </div>
+                <div class="love5" id="love"> <a href="/paavangal.html"><img src="/images/paavangal.webp"></a><br>
+                    <p><img src="/images/html css.webp"><br><pre>Paavangal | Gobi | Suthakar | Santhosh | 
+| Parithabangal</pre> </p>
+    <pre class="love5-1">
+PARITHAPANGAL
+1K Views . 8 Hours ago</pre>
+
+                </div>
+                <div class="love6" id="love"> <a href="/prasanth.html"> <img src="/images/prasanth.webp"></a><br>
+                    <p><img src="/images/surya1.jpg"><br><pre>Agent Kannayiram | Santhanam | Pugal | 
+| Yuvan</pre> </p>
+    <pre class="love6-1">
+PRASANTH
+1M Views . 12 Hours ago</pre>
+
+                </div>
+                <div class="love7" id="love"> <a href="/html,css.html"> <img src="/images/html css.webp"></a><br>
+                    <p><img src="/images/laptop.jpg"><br><pre>Html | Css | Basics | Karthick | youtube
+| Animation
+                    </pre> </p>
+    <pre class="love7-1">
+CODE TAMIL
+80k Views . 1 month ago</pre>
+
+                </div>
+                <div class="love8" id="love"> <a href="/application.html"> <img src="/images/application.webp"></a><br>
+                    <p><img src="/images/laptop.jpg"><br><pre>Software | C++ | Java | Python | c 
+| Javascript
+                    </pre> </p>
+    <pre class="love8-1">
+TAMIL TECH
+30k Views . 5 month ago</pre>
+
+                </div>
+                <div class="love9" id="love"> <a href="/body.html"> <img src="/images/body.webp"></a><br>
+                    <p><img src="/images/surya1.jpg"><br><pre>Man Boobs | Lower Back | Love Manlest  
+| 6 Packs
+                    </pre> </p>
+    <pre class="love9-1">
+HARISH KUMAR
+90k Views . 2 month ago</pre>
+
+                </div>
+                <div class="love10" id="love"> <a href="/health ins.html"> <img src="/images/health ins.webp"></a><br>
+                    <p><img src="/images/health ins.webp"><br><pre>Health | Insurance | Need for   
+everyone | live
+
+</pre> </p>
+    <pre class="love10-1">
+RAHUL
+1M Views . 5 month ago</pre>
+
+                </div>
+                <div class="love11" id="love"> <a href="/failure.html"><img src="/images/failure4.webp"></a><br>
+                    <p><img src="/images/paavangal.webp"><br><pre>Np | Ayash | Praveen | Surya | Karthick 
+| sasi | Arun</pre> </p>
+    <pre class="love11-1">
+BLACK SHEEP
+1M Views . 2 years ago</pre>
+
+                </div>
+                <div class="love12" id="love"> <a href="/kevin pawl.html"> <img src="/images/css grid.webp"></a><br>
+                    <p><img src="/images/laptop.jpg"><br><pre>Kevin | Pawl | Html | Css | Grid 
+| Layout | Responsive</pre> </p>
+    <pre class="love12-1">
+KEVIN PAWL
+2M Views . 5 years ago</pre>
+
+                </div>
+                <div class="love13" id="love"> <a href="/avathar.html "> <img src="/images/avathar.webp"></a><br>
+                    <p><img src="/images/arun vijay.webp"><br><pre>Avathar | James | Studio | Camera | Trailer 
+| Avengers | US</pre> </p>
+    <pre class="love13-1">
+STUDIO GREEN
+1M Views . 1 Week ago</pre>
+
+                </div>
+                <div class="love14" id="love"> <a href="/gobi.html"><img src="/images/Arown Troll prasanth.webp"></a><br>
+                    <p><img src="/images/avathar.webp"><br><pre>Gobi | Neeya | Naana | Vijay | TV 
+| Show | Tamil</pre> </p>
+    <pre class="love14-1">
+AROWN TROLL
+15k Views . 5 Week ago</pre>
+
+                </div>
+                <div class="love15" id="love"> <a href="/arun.html"><img src="/images/arun vijay.webp"></a><br>
+                    <p><img src="/images/black sheep newly.webp"><br><pre>Arun | Vijay | 7 Green | Tamil | TV 
+| Teaser | ARR</pre> </p>
+    <pre class="love15-1">
+7 Screen
+1M Views . 1 Week ago</pre>
+
+                </div>
+                <div class="love16" id="love"> <a href="/black sheep.html"><img src="/images/black sheep newly.webp"></a><br>
+                    <p><img src="/images/avathar.webp"><br><pre>Black | Sheep | Nishanth | Newly | Married 
+| Sothanaigal | Tamil</pre> </p>
+    <pre class="love16-1">
+BLACK SHEEP
+60k Views . 2 Month ago</pre>
+
+                </div>
+                <div class="love17" id="love"> <a href="/burger.html"><img src="/images/burger.webp"></a><br>
+                    <p><img src="/images/Arown Troll prasanth.webp"><br><pre>Burger | How | To | Prepare | Tamil 
+| Bun | Veg/Non veg</pre> </p>
+    <pre class="love17-1">
+COOKING TAMIL
+3.2M Views . 1 Year ago</pre>
+
+                </div>
+                <div class="love18" id="love"> <a href="/ivana.html"><img src="/images/ennai vittu.webp"></a><br>
+                    <p><img src="/images/love today.webp"><br><pre>Pradeep | Ivana | Yogi | Praveena | Bhaskar 
+| Ennai vittu | Song</pre> </p>
+    <pre class="love18-1">
+SONY MUSIC
+1.5M Views . 3 year ago</pre>
+
+                </div>
+                <div class="love19" id="love"> <a href="/eruma.html"> <img src="/images/eruma saani.webp"></a><br>
+                    <p><img src="/images/ennai vittu.webp"><br><pre>Vijay | Ranjith | Yogi | Surya | Pooja 
+| Sothanaigal | Content</pre> </p>
+    <pre class="love19-1">
+ERUMA SAANI
+2.5M Views . 1 year ago</pre>
+
+                </div>
+                <div id="all" class="love20" id="love"> <a href="/gv.html"> <img src="/images/gv hits.webp"></a><br>
+                    <p><img src="/images/burger.webp"><br><pre>GV | Prakash | Kumar | Hits | Melody 
+| Bgm | Song</pre> </p>
+    <pre class="love20-1">
+SONY MUSIC
+50M Views . 5 year ago</pre>
+
+                </div>
+                <div class="love21" id="love"> <a href="/hip.html"><img src="/images/hip hop.webp"></a><br>
+                    <p><img src="/images/arun vijay.webp"><br><pre>Hip Hop | Aadhi | Meesaiya | Muruku | vaadi 
+| pulla | Vaadi</pre> </p>
+    <pre class="love21-1">
+SPOTIFY MUSIC
+5M Views . 2 Month ago</pre>
+
+                </div>
+                <div class="love22" id="love"><a href="/kaari.html"><img src="/images/kaari trailer.webp"></a><br>
+                    <p><img src="/images/lokesh.webp"><br><pre>Sasikumar | Yogi | Idhayakani | Trailer | Tamil 
+| Dec2 | Theaters</pre> </p>
+    <pre class="love22-1">
+PRINCE FRAME
+8M Views . 1 Weeks ago</pre>
+
+                </div>
+                <div class="love23" id="love"> <a href="/kadaipoma.html"><img src="/images/kadaipoma.webp"></a><br>
+                    <p><img src="/images/avathar.webp"><br><pre>Np | Preetha | Kumar | Arun | Chapter-5 
+| Veyil | Song</pre> </p>
+    <pre class="love23-1">
+BLACK SHEEP
+10K Views . 1 Hour ago</pre>
+
+                </div>
+                <div class="love24" id="love"> <a href="/mamakutty.html"> <img src="/images/mama kutty.webp"></a><br>
+                    <p><img src="/images/arun vijay.webp"><br><pre>Pradeep | Ivana | Mama kutty | love | today 
+| Scene | Tamil</pre> </p>
+    <pre class="love24-1">
+SONY MUSIC
+20K Views . 10 year ago</pre>
+
+                </div>
+                <div class="love25" id="love"> <a href="/jercey.html"><img src="/images/jersey.webp"></a><br>
+                    <p><img src="/images/paiya.webp"><br><pre>Naani | Sathiyaraj | Telugu | Hits | Teaser 
+| Cricket | Motivation </pre> </p>
+    <pre class="love25-1">
+Humbley
+56K Views . 2 year ago</pre>
+
+                </div>
+                <div class="love26" id="love"> <a href="/lokesh.html"><img src="/images/lokesh.webp"></a><br>
+                    <p><img src="/images/thuniyu.webp"><br><pre>Lokesh | Kamal | Lion | Ghost | Vikram 
+| T67 | Tamil </pre> </p>
+    <pre class="love26-1">
+TAMIL CINEMA
+10k Views . 1 Month ago</pre>
+
+                </div>
+                <div class="love27" id="love"> <a href="/adharva.html"> <img src="/images/pattathu arasan.webp"></a><br>
+                    <p><img src="/images/application.webp"><br><pre>Adharva | Rajkiran | Priya | Scene | Peak 
+| Tamil | Dec 2</pre> </p>
+    <pre class="love27-1">
+SONY CINEMA
+1M Views . 2 week ago</pre>
+
+                </div>
+                <div class="love28" id="love"> <a href="/sky.html"><img src="/images/sky.webp"></a><br>
+                    <p><img src="/images/paiya.webp"><br><pre>Surya | Kumar | Yathav | BBC | India 
+| Cricket | Nz </pre> </p>
+    <pre class="love28-1">
+BBC
+10M Views . 1 Day ago</pre>
+
+                </div>
+                <div class="love29" id="love"> <a href="/space.html"> <img src="/images/space.webp"></a><br>
+                    <p><img src="/images/html css.webp"><br><pre>Space | Webpage | Html | Css | JS 
+| Front end | Responsive </pre> </p>
+    <pre class="love29-1">
+CODE TAMIL
+20K Views . 19 Day ago</pre>
+
+                </div>
+                <div class="love30" id="love"> <a href="/viyayaanand.html"><img src="/images/vijaya anand.webp"></a><br>
+                    <p><img src="/images/kgf.webp"><br><pre>Vijaya | Anand | Trailer |  |Pan India 
+| Film | Tamil </pre> </p>
+    <pre class="love30-1">
+HUMBLEY TELUGU
+3M Views . 24 Day ago</pre>
+
+                </div>
+                <div class="love31" id="love"><a href="/village.html"><img src="/images/village samaiyal.webp"></a><br>
+                    <p><img src="/images/burger.webp"><br><pre>Village | Samaiyal | Varity | Veg | Non Veg 
+| Gravy | Mordern foods </pre> </p>
+    <pre class="love31-1">
+VILLAGE COOKING
+1M Views . 2 Month ago</pre>
+
+                </div>
+                <div class="love32" id="love"><a href="/moti.html"><img src="/images/motiversity.webp"></a><br>
+                    <p><img src="/images/tech boss.webp"><br><pre>Work | Hard | Motivation | Holly | Wood 
+| Smart | Work </pre> </p>
+    <pre class="love32-1">
+HOLLYWOOD CINEMA
+10K Views . 1 Year ago</pre>
+
+                </div>
+                
+            
+            </div>
+
+            <!-- videos item end -->
+    
+          </div>
+
+
+
+        </div>
+<!-- body Content end -->
+
+ 
+
+
+</div>
+
+
+
+    
+</body>
+<script src="/you.js"></script>
+
+</html>

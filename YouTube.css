@@ -1,0 +1,1140 @@
+:root{
+   --primary:white;
+   --secondary:#747474;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+
+    width: 100%;
+    height: 200vh;
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+li{
+    list-style-type: none;
+}
+/* Nav start */
+.container{
+      width: 100%;
+      height: 7vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position:sticky;
+      top: 0;
+      z-index:1;
+      background-color: var(--primary);
+    
+}
+.sup1{
+    font-size: 11px;
+    position: relative;
+    top: -10px;
+}
+.bars{
+    width: 50px;
+}
+.container img{
+    width: 30px;
+    height: 30px;
+}
+.bars{
+    width: 45px;
+}
+.logo .logo1{
+    width: 100px;
+    height: 20px;
+    margin-left: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+.search{
+    border: 1px solid #c0c0c070;
+    border-color:#c0c0c0;
+    width: 32%;
+    height: 69%;
+    display: flex;
+    align-items: center;
+    border-radius:10px ;
+   
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    flex: 1;
+    margin-left:10px ;
+}
+.search button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+}
+.search img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+.search div img{
+    width: 27px;
+    height:27px;
+    margin-top: 3px;
+    margin-left: 8px;
+    border-radius: 50%;
+}
+.search div img:hover{
+  transform: scale(1.2);
+}
+#sec01{
+    display: none;
+}
+#sec02{
+    display: none;
+}
+@media (max-width:490px){
+    #sec01{
+        display: block;
+        margin-left: 40px;
+        font-size: 18px;
+        position: relative;
+        
+        
+    }
+    #sec02{
+        display: block;
+        font-size: 18px;
+    }
+    .search{
+      display: none;
+    }
+}
+@media (max-width:725px){
+    .search img{
+      margin-left: -40px;
+    }
+    .search div img{
+       margin-left: -5px;
+    }
+}
+
+@media (max-width:590px){
+    .search img{
+      margin-left: -50px;
+    }
+    .search div img{
+       margin-left: -5px;
+    }
+}
+@media (max-width:590px){
+    .search img{
+      margin-left: -70px;
+    }
+    .search div img{
+       margin-left: -5px;
+    }
+}
+@media (max-width:495px){
+    .search img{
+      margin-left: -100px;
+    }
+    .search div img{
+       display: none;
+    }
+    .search{
+       
+        width: 22%;
+        height: 70%;
+    }
+
+}
+.account{
+    
+    width: 110px;
+    margin-right: 20px;
+    display: flex;
+    justify-content:space-between ;
+}
+.account img{
+    width: 20px;
+    height: 18px;
+  
+}
+.account .record{
+    height: 13px;
+    margin-top: 8px;
+}
+.account .noti{
+    margin-top: 5px;
+}
+.account .surya{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+   
+}
+
+
+
+/* nav end */
+
+
+
+/* sidebar start */
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.sidebar1{
+    width: 12%;
+    height: 100vh;
+    overflow: scroll;
+    font-size: 14px;
+    position: fixed;
+    left: 2px;
+    top: 56px;
+    z-index: 5;
+}
+/* .javas{
+    width: 12%;
+} */
+
+.sidebar2{
+    width: 86%;
+    height: 100vh;
+    position:relative;
+    left: 50px;
+}
+.container1 div{
+    padding: 7px;
+    margin-top: 15px;
+    width: 190px;
+    border-radius: 8px;
+    margin-left:24px;
+    display: flex;
+  
+}
+   .container1 div i{
+       font-size: 20px;
+   }
+.container1 div a{
+   margin-top: 3px;
+   margin-left: 22px;
+}
+
+.container1 div:hover{
+   background-color: #c0c0c048;
+}
+.hr1{
+   color:#c0c0c048 ;
+}
+.container2 div{
+   padding: 8px;
+   margin-top: 15px;
+   width: 190px;
+   border-radius: 8px;
+   margin-left: 24px;
+   display: flex;
+}
+.container2 div i{
+   font-size: 20px;
+}
+.container2 div a{
+   margin-top: 3px;
+   margin-left: 22px;
+}
+.container2 div:hover{
+  background-color: #c0c0c048;
+}
+
+.container3 div{
+   padding: 5px;
+   margin-top: 15px;
+   width: 210px;
+   border-radius: 8px;
+   margin-left: 24px;
+   display: flex;
+}
+.container3 div img{
+ width: 20px;
+
+}
+.container3 div a{
+   margin-left: 22px;
+}
+.container3 div:hover{
+  background-color: #c0c0c048;
+}
+.container3 h4{
+   margin-left: 25px;
+   margin-top: 10px;
+}
+.container4 div{
+
+   padding: 5px;
+   margin-top: 15px;
+   width:190px;
+   border-radius: 8px;
+   margin-left: 24px;
+   display: flex;
+   
+}
+.container4 div i{
+   font-size: 20px;
+}
+.container4 div a{
+   margin-left: 22px;
+}
+.container4 div:hover{
+  background-color: #c0c0c048;
+}
+.container4 h4{
+   margin-left: 25px;
+   margin-top: 10px;
+}
+.container5 div{
+   padding: 5px;
+   margin-top: 15px;
+   width: 190px;
+   border-radius: 8px;
+   margin-left: 24px;
+   display: flex;
+}
+.container5 div img{
+   width: 20px;
+
+}
+.container5 div a{
+   margin-left: 22px;
+}
+.container5 div:hover{
+  background-color: #c0c0c048;
+}
+.container5 h4{
+   margin-left: 25px;
+   margin-top: 10px;
+}
+.container6 div{
+   padding: 5px;
+   margin-top: 15px;
+   width: 190px;
+   border-radius: 8px;
+   margin-left: 24px;
+   display: flex;
+
+}
+.container6 div a{
+   margin-left: 22px;
+}
+.container6 div:hover{
+  background-color: #c0c0c048;
+}
+
+.con7-1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+.con7-1 div pre{
+   font-size: 12px;
+   margin-top: 10px;
+}
+@media (max-width:1790px){
+    .sidebar1{
+        width: 4%;
+        margin-top: 50px;
+    }
+    .con7-1 div pre{
+        display: none;
+     }
+     .container6 {
+        display: none;
+      }
+      .container5 {
+        display: none;
+      }
+      .container4 {
+        display: none;
+      }
+      .container3 {
+        display: none;
+      }
+      .container2 div a {
+        display: none;
+      }
+      .container1 div a {
+        display: none;
+      }
+    .sidebar2{
+        width: 98%;
+        height: 100vh;
+        position:relative;
+        left: 2px;
+    }
+}
+@media (max-width:1260px){
+    .sidebar1{
+        display: none;
+    }
+}
+@media (max-width:1630px){
+    .sidebar2{
+        width: 95%;
+    }
+}
+
+/* sidebar end */
+
+
+
+/* video content start */
+.videos-list ul{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:6px;
+    overflow: hidden;
+    position: sticky;
+    top: 66px;
+    z-index: 5;
+    background-color: white;
+
+}
+.videos-list li{
+    width: 98px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #c0c0c048;
+}
+.videos-list li:hover{
+    background-color: #7474746e;
+}
+
+.videos-list .li1{
+    width: 50px;
+}
+@media (max-width:1700px){
+    .videos-list .li15{
+        display: none;
+    }
+    .videos-list .li14{
+        display: none;
+    }
+}
+
+
+@media (max-width:1340px){
+    .videos-list .li13{
+        display: none;
+    }
+   
+}
+@media (max-width:1240px){
+    .videos-list .li12{
+        display: none;
+    }
+}
+@media (max-width:1140px){
+    .videos-list .li11{
+        display: none;
+    }
+}
+@media (max-width:1040px){
+    .videos-list .li10{
+        display: none;
+    }
+}
+@media (max-width:940px){
+    .videos-list .li9{
+        display: none;
+    }
+}
+@media (max-width:820px){
+    .videos-list .li8{
+        display: none;
+    }
+}
+@media (max-width:720px){
+    .videos-list .li7{
+        display: none;
+    }
+}
+@media (max-width:615px){
+    .videos-list .li6{
+        display: none;
+    }
+}
+@media (max-width:510px){
+    .videos-list .li5{
+        display: none;
+    }
+}
+
+/* video content end */
+
+
+/* video item start */
+.video-items{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    position: relative;
+    top: 25px;
+    left: 18px;
+}
+.video-items div{
+    width: 372px;
+    height: 300px;
+    border-radius:10px;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.video-items div img{
+    width: 372px;
+    height: 210px;
+    border-radius: 10px;
+    
+}
+.video-items div:hover{
+    background-color: #c0c0c048;
+    transform: scale(1.1);
+}
+@media (max-width:500px){
+    .video-items{
+      margin-left: -18px;
+    }
+   
+}
+/* LOVE FIRST DIV  */
+.love p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love .love1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 2 DIV  */
+
+.love2 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love2 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love2 .love2-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 3 DIV  */
+
+.love3 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love3 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love3 .love3-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 4 DIV  */
+
+.love4 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love4 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love4 .love4-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 5 DIV  */
+
+.love5 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love5 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love5 .love5-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 6 DIV  */
+
+.love6 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love6 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love6 .love6-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 7 DIV  */
+
+.love7 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love7 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love7 .love7-1{
+    font-weight: normal;
+    margin-top: -10px;
+    font-size: 14px;
+}
+/* LOVE 8 DIV  */
+
+.love8 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love8 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love8 .love8-1{
+    font-weight: normal;
+    margin-top: -10px;
+    font-size: 14px;
+}
+/* LOVE 9 DIV  */
+
+.love9 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love9 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love9 .love9-1{
+    font-weight: normal;
+    margin-top: -10px;
+    font-size: 14px;
+}
+/* LOVE 10 DIV  */
+
+.love10 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love10 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love10 .love10-1{
+    font-weight: normal;
+    margin-top: -10px;
+    font-size: 14px;
+}
+/* LOVE 11 DIV  */
+
+.love11 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love11 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love11 .love11-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 12 DIV  */
+
+.love12 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love12 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love12 .love12-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 13 DIV  */
+
+.love13 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love13 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love13 .love13-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 14 DIV  */
+
+.love14 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love14 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love14 .love14-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 15 DIV  */
+
+.love15 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love15 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love15 .love15-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 16 DIV  */
+
+.love16 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love16 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love16 .love16-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 17 DIV  */
+
+.love17 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love17 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love17 .love17-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 18 DIV  */
+
+.love18 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love18 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love18 .love14-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 19 DIV  */
+
+.love19 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love19 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love19 .love19-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 20 DIV  */
+.love20 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love20 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love20 .love20-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 21 DIV  */
+
+.love21 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love21 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love21 .love21-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 22 DIV  */
+
+.love22 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love22 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love22 .love22-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 23 DIV  */
+
+.love23 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love23 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love23 .love23-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 24 DIV  */
+
+.love24 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love24 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love24 .love24-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 25 DIV  */
+
+.love25 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love25 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love25 .love25-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 26 DIV  */
+.love26 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love26 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love26 .love26-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 27 DIV  */
+
+.love27 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love27 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love27 .love27-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 28 DIV  */
+.love28 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love28 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love28 .love28-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 29 DIV  */
+
+.love29 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love29 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love29 .love29-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 30 DIV  */
+
+.love30 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love30 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love30 .love30-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 31 DIV  */
+
+.love31 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love31 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love31 .love31-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+/* LOVE 32 DIV  */
+
+.love32 p img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+.love32 pre{
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-weight: bold;
+}
+.love32 .love32-1{
+    font-weight: normal;
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+
+
+/* video item end */
